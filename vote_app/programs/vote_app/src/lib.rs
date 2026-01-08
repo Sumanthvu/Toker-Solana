@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 mod state;
-mod contexts;
-use contexts::*;
+mod context;
+use context::*;
 
 declare_id!("9fka3EztcCih3UYhwqHpDYEcZtt4qt2QehrQ4cXLx8YE");
 
